@@ -1,0 +1,11 @@
+
+home:
+    path: /
+    controller: App\Controller\PageController::index
+    
+about:
+    path: /about
+    controller: App\Controller\PageController::about
+music:
+    path: /music
+    controller: App\Controller\PageController::music
